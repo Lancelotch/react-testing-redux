@@ -4,10 +4,10 @@ import "./style.scss";
 
 export default function Header() {
   return (
-    <header>
+    <header data-test="header">
       <div className="wrap">
         <div className="logo">
-          <img src={Logo} alt="logo" />
+          <img data-test="logoImg" src={Logo} alt="logo" />
         </div>
       </div>
     </header>
